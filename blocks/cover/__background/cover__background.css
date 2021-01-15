@@ -1,0 +1,11 @@
+.cover__background{
+    background-image: url(../../../sprint-3-images/cover-trains.jpg);
+    max-width: 100%;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 640px;
+    display: block;
+    position: relative;
+    text-decoration: none;
+} 

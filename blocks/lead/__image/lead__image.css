@@ -1,0 +1,18 @@
+.lead__image{
+    background-image: url('../../../sprint-3-images/lead-polka.jpg');
+    width: 100%;
+    height: max-content;
+    margin-top: 56px;
+    background-size: cover;
+    background-position: center;
+}
+@media screen and (max-width:860px){
+    .lead__image{
+    max-height: 480px;
+    }
+}
+@media screen and (max-width:500px){
+    .lead__image{
+    max-height: 200px;
+    }
+}

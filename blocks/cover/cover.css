@@ -1,0 +1,14 @@
+.cover{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    position: relative;
+    max-width: 1024px;
+    /*min-height: 640px;*/
+    height: calc((10/16)*92.5vw);
+    padding-top: 92px;
+}
+.cover:hover .cover__overlay{ 
+    opacity: 80%;
+  }
+

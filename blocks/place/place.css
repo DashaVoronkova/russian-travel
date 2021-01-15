@@ -1,0 +1,28 @@
+.place{
+    margin-bottom: 80px;
+    max-width: 90%;
+    display: grid;
+    column-gap: 32px;
+    row-gap: 5%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, minmax(min-content, max-content));
+    grid-template-areas:
+    "title website"
+    "image paragraphs"
+}
+@media screen and (max-width:670px){
+    .place{
+        max-width: 100%;
+        max-height: max-content;
+        margin-top: 50px;
+    display: grid;
+    row-gap: 32px;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat (5,minmax(min-content, max-content));
+    grid-template-areas:
+    "title"
+    "website"
+    "image"
+    "paragraphs"
+    }
+}
