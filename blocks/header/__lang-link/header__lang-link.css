@@ -9,12 +9,17 @@
     padding-bottom: 0;
     margin-right: 0;
     margin-bottom: 0;
-    height: min-content;
     text-decoration: none;
 }
+.header__lang-link:last-child{
+    margin-right: 18px;
+}
 @media screen and (max-width:360px){
-    .header{
+    .header__lang-link{
         font-size: 18px;
         line-height: 20px;
     }
+  }
+  .header__lang-link:hover{
+      opacity: 0.8;
   }

@@ -8,3 +8,13 @@
     text-transform: uppercase;
     color: #FFFFFF;
     }
+    @media screen and (max-width:860px){
+        .lead__caption{
+            margin-left: 24px;
+        }
+    }
+    @media screen and (max-width: 320px){
+    .lead__caption{
+        margin-left: 16px;
+    }
+}

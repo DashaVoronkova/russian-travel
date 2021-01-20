@@ -5,10 +5,25 @@
     background-size: cover;
     z-index: 2;
     opacity: 0.3;
-    min-height: 640px;
     width: 100%;
+    min-height: 740px;
     position: absolute;
     right: 0;
     top: 0;
     text-decoration: none;
 }
+@media screen and (max-width:1024px){
+    .cover__overlay{
+      min-height: 640px;
+    }
+  }
+  @media screen and (max-width:768px){
+    .cover__overlay{
+      min-height: 480px;
+    }
+  }
+  @media screen and (max-width:390px){
+    .cover__overlay{
+      min-height: 200px;
+    }
+  }

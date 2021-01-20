@@ -2,5 +2,13 @@
     grid-area: paragraphs;
     padding: 0;
     margin: 0;
-    max-height: max-content;
+}
+/*.place__paragraphs:nth-child(2){
+  margin-bottom: 0;
+}*/
+@media screen and (max-width:650px){
+.place__paragraphs{
+  margin-left: 16px;
+  margin-right: 16px;
+}
 }

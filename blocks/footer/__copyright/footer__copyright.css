@@ -5,13 +5,15 @@
     line-height: 16px;
     /* identical to box height, or 114% */
     text-align: right;
+    align-self: flex-start;
     color: #FFFFFF;
     margin: 0;
 }
 @media screen and (max-width: 695px){
     .footer__copyright{
         line-height: 14px;
+        padding-bottom: 24px;
         margin-top: 16px;
-        margin-left: 0;
+        align-self: start;
     }
 }
